@@ -1,0 +1,48 @@
+/* src/components/Contact.css */
+.contact {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.contact-info {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info strong {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}

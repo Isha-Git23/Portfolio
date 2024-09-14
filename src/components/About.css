@@ -1,0 +1,46 @@
+.about {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #ffffff73;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #212a31;
+    position: relative;
+}
+
+.about h2 {
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 1rem;
+    /* background-color: #719494; */
+    color: #212a31;
+    /* Ensure background matches section */
+    z-index: 1;
+}
+
+.about h2::before,
+.about h2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+    height: 2px;
+    background-color: #000;
+    /* Dark black line */
+    z-index: -1;
+}
+
+.about h2::before {
+    left: -100vw;
+}
+
+.about h2::after {
+    right: -100vw;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 2rem auto 0;
+}
